@@ -1,0 +1,742 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* section-------Navbar */
+.nav-fixed{
+    background-color: #EEEEEE;
+    
+}
+
+#nav-menu{
+    /* padding: 15px; */
+    margin-left: 10px;
+    font-weight: 500;
+    color: rgb(94, 91, 91);
+    margin-left: 50px;
+    
+}
+
+#nav-menu:hover{
+    /* color: #0C056D; */
+    color: #034E74;
+    font-weight: 500;
+    text-decoration: none;
+    
+    /* border-bottom: 2px solid #034E74; */
+    /* transition: 0.3s; */
+
+}
+
+
+#dropdown-menu-main{
+    border-bottom: 2px solid #034E74;
+}
+
+#dropdown-menu{
+    font-weight: 400;
+    color: rgb(110, 110, 110);
+    padding: 20px;
+}
+#dropdown-menu:hover{
+    border: none;
+    color: #EEEEEE;
+    background-color: #034E74;
+}
+
+.logo-img{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+@media (max-width: 992px) {
+    #nav-menu:hover{
+    
+    color: #034E74;
+
+        text-decoration: none;
+        border-bottom: None;
+        transition: 0.3s;
+    
+    }
+
+    #dropdown-menu{
+        font-weight: 400;
+        color: rgb(110, 110, 110);
+        padding: 10px;
+        border:none
+    }
+    #dropdown-menu-main{
+        border: 1px solid #034E74;
+        width: 200px;
+        margin-left:70px ;
+
+    }
+   .for-ladies{
+    margin-left: 0px;
+   }
+    
+}
+
+
+/* section-------home-Main-slider */
+
+.bg-img-1{
+    background-image: url('./main-image2.jpg');
+    filter: brightness(100%) contrast(60%);
+
+}
+
+
+.bg-img-3{
+    background-image: url('./main-image3.jpg');
+}
+
+.carousel-image{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+box-sizing: border-box;
+}
+@media (max-width: 767px) {
+    .carousel-image {
+      height: 60vh; 
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .carousel-image {
+      height: 70vh; /* Adjust as needed for medium-sized devices */
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .carousel-image {
+      height: 80vh; /* Adjust as needed for large-sized devices */
+    }
+  }
+
+
+
+/*--------------------- section-------Main-TEXT-content -------------------------------*/
+
+.Main-text-content{
+    background-color: #EEEEEE;
+    margin-top: 30px;
+    border-radius: 5px;
+width: 100%;
+}
+
+.Main-text-content-1{
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 100%;
+    color: #034E74;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: 20px;
+
+
+}
+.Main-text-content-2{
+    width: 100%;
+    font-size: 100%;
+    margin-left: 5px;
+}
+/* 
+.Main-cart-content{
+    background-color: #EEEEEE;
+    margin-top: 30px;
+}
+ */
+
+ #facts{
+    width: 40vh;  
+     margin-top: 5vh; 
+     height: 95vh;
+      background:#034E74;
+       margin-bottom: 30px;
+ }
+ @media screen and (min-width: 100px) and (max-width: 767px) {
+    #facts {
+      /* margin-left: 100px; */
+    width: 100%;  
+    height: 120vh;
+
+    }
+  }
+ 
+.for-ladies{
+    display: inline-block; 
+    /* margin-left: 150px; */
+}
+
+ @media (max-width: 1200px) {
+    
+   .for-ladies{
+    margin-left: 0px;
+   }
+    
+}
+
+
+#location{
+    width: 100%; 
+     margin-top: 5vh; 
+    height: 100vh;
+    background-color: #034E74;
+      margin-bottom: 30px;
+}
+
+
+@media (max-width: 368px) {
+    
+    #location{
+    width: 100%; 
+    height: 130vh;
+        
+    }
+     
+ }
+
+
+ .main-text-contact{
+    background-color: #ffffff;
+    /* background-color: #686767; */
+    padding: 40px;
+color: #686767; 
+   margin-top: 20px;
+ }
+
+ .btn-1{
+    background-color: #034E74;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: #EEEEEE;
+padding-left: 60px;
+padding-right: 60px;
+font-size: 100%;
+width: 100%;
+ }
+
+ .main-text-ques{
+    background-color: #EEEEEE;
+    margin-top: 40px;
+    border-radius: 5px;
+ }
+
+ .main-text-ques-heading{
+     color: #034E74;
+     padding-top: 40px; 
+    margin-bottom: 40px;
+     font-weight: bold; 
+     padding-left: 20px;
+     font-family: sans-serif;
+ }
+
+ @media (max-width: 400px){
+    .main-text-ques-heading{
+        color: #034E74;
+        padding-top: 40px; 
+       margin-bottom: 40px;
+        font-weight: bold; 
+        font-size: medium;
+        padding-left: 20px;
+        font-family: sans-serif;
+    }
+ }
+
+
+ .footer-section{
+background-color: #000;
+margin-top: 50px;
+width: 100%;
+
+ }
+
+ .footer-1-section{
+    margin-top: 30px;
+    color: #EEEEEE;
+    /* width: 100%; */
+ }
+
+ .footer-2-section{
+    margin-top: 30px;
+    color: #EEEEEE;
+    /* margin-left: 80px; */
+    /* width: 100%; */
+ }
+
+ .footer-3-section{
+  margin-top: 30px;
+    color: #EEEEEE;
+ }
+
+
+ /* section-------about-Main-slider */
+
+ .about-slider-img-1{
+    background-image: url('./about\ slider\ image3.jpg');
+    filter: brightness(80%) contrast(60%);
+   
+
+}
+
+.about-slider-img-2{
+    background-image: url('./about\ slider\ image2.jpg');
+    filter: brightness(80%) contrast(60%);
+}
+
+.about-slider-img-3{
+
+    background-image: url('./about\ slider\ image1.jpg');
+    filter: brightness(100%) contrast(60%);
+}
+
+.about-carousel-image{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .about-carousel-image {
+      height: 60vh; 
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .about-carousel-image {
+      height: 70vh; 
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .about-carousel-image {
+      height: 80vh; 
+    }
+  }
+
+
+ /* section-------about-Main-text */
+
+.about-section{
+    background-color: #EEEEEE;
+    margin-top: 50px;
+
+}
+
+
+
+.about-text-h1 {
+    font-weight: bold;
+    margin-top: 50px;
+color: #034E74;
+  }
+
+  p.container {
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 767px) {
+    .about-text-h1 {
+      font-size: 24px; 
+    }
+
+    p.container {
+      font-size: 14px; 
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .about-text-h1 {
+      font-size: 36px; 
+    }
+
+    p.container {
+      font-size: 16px; 
+    }
+  }
+
+
+
+  .about-section-2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #EEEEEE;
+    padding-bottom: 30px;
+    border-radius: 5px;
+  }
+
+
+  .about-section-h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #034E74;
+    padding-top: 30px;
+    margin-bottom: 20px;
+
+  }
+
+  .about-section-p {
+    font-size: 18px;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .about-section-h1 {
+      font-size: 24px;
+    }
+
+    .about-section-p  {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .about-section-h1 {
+      font-size: 30px;
+    }
+
+    .about-section-p  {
+      font-size: 18px;
+    }
+  }
+/* islam-slider-section */
+
+  .islam-slider-image1{
+    background-image: url('./islam-img1.jpg');
+    filter: brightness(80%) contrast(60%);
+}
+
+.islam-slider-image2{
+
+    background-image: url('./islam-img2.jpg');
+    filter: brightness(100%) contrast(60%);
+}
+
+.islam-carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .islam-carousel-image {
+    height: 60vh; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .islam-carousel-image {
+    height: 70vh; 
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .islam-carousel-image {
+    height: 80vh; 
+  }
+}
+
+
+/* islam-text-section */
+.islam-section{
+  background-color: #EEEEEE;
+  margin-top: 50px;
+  font-family: sans-serif;
+
+}
+
+
+
+.islam-text-h1 {
+  font-weight: bold;
+  margin-top: 50px;
+color: #034E74;
+}
+
+.islam-text-p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .islam-text-h1 {
+    font-size: 24px; 
+  }
+
+ .islam-text-p {
+    font-size: 14px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .islam-text-h1 {
+    font-size: 36px; 
+  }
+
+  .islam-text-p {
+    font-size: 16px; 
+  }
+}
+
+
+
+/* history-slider-section */
+
+.history-slider-image1{
+  background-image: url('./history-img1.jpg');
+  filter: brightness(80%) contrast(60%);
+}
+
+
+.history-carousel-image{
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+.history-carousel-image {
+  height: 60vh; 
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.history-carousel-image {
+  height: 70vh; 
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.history-carousel-image {
+  height: 80vh; 
+}
+}
+
+
+
+
+/* history-text-section */
+.history-section{
+  background-color: #EEEEEE;
+  margin-top: 50px;
+  font-family: sans-serif;
+
+}
+
+
+
+.history-text-h1 {
+  font-weight: bold;
+  margin-top: 50px;
+color: #034E74;
+}
+
+.history-text-p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .history-text-h1 {
+    font-size: 24px; 
+  }
+
+  .history-text-p {
+    font-size: 14px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .history-text-h1 {
+    font-size: 36px; 
+  }
+
+  .history-text-p {
+    font-size: 16px; 
+  }
+}
+
+
+/* benefits-slider-section */
+
+.benefits-slider-image1{
+  background-image: url('./benefits-img1.jpg');
+  filter: brightness(80%) contrast(60%);
+}
+
+
+.benefits-carousel-image{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+.benefits-carousel-image {
+  height: 60vh; 
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.benefits-carousel-image {
+  height: 70vh; 
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.benefits-carousel-image {
+  height: 80vh; 
+}
+}
+
+
+/* history-text-section */
+.benefits-section{
+  background-color: #EEEEEE;
+  margin-top: 50px;
+  font-family: sans-serif;
+
+}
+
+
+
+.benefits-text-h1 {
+  font-weight: bold;
+  margin-top: 50px;
+color: #034E74;
+}
+
+.benefits-text-p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .benefits-text-h1 {
+    font-size: 24px; 
+  }
+
+  .benefits-text-p {
+    font-size: 14px; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .benefits-text-h1 {
+    font-size: 36px; 
+  }
+
+  .benefits-text-p {
+    font-size: 16px; 
+  }
+}
+
+
+ /* section-------sunnahpoints-Main-slider */
+
+ .sunnahpoints-slider-image1{
+  background-image: url('./sunnah-points-img1.jpg');
+  filter: brightness(80%) contrast(60%);
+ 
+
+}
+
+
+.sunnahpoints-carousel-image {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .sunnahpoints-carousel-image  {
+    height: 60vh; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sunnahpoints-carousel-image  {
+    height: 70vh; 
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sunnahpoints-carousel-image  {
+    height: 80vh; 
+  }
+}
+
+/* section-------gallery-Main-slider */
+
+.gallery-img-1{
+  background-image: url('./benefits-img1.jpg');
+  filter: brightness(80%) contrast(60%);
+ 
+
+}
+
+
+.gallery-carousel-image {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+  .gallery-carousel-image  {
+    height: 60vh; 
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .gallery-carousel-image {
+    height: 70vh; 
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .gallery-carousel-image  {
+    height: 80vh; 
+  }
+}
+
+
+
+/* contact us */
+
+#contact{
+  width: 100%; 
+   margin-top: 5vh; 
+  height: 100vh;
+  background-color: #EEEEEE;
+    margin-bottom: 30px;
+
+}
+
+@media (max-width: 368px) {
+  
+  #contact{
+  width: 100%; 
+  height: 130vh;
+      
+  }
+   
+}
